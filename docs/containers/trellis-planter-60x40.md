@@ -11,7 +11,7 @@
 
 ## Current placement
 
-See the [balcony map](../..). The position shown there is the current working placement and may change without changing this container ID.
+See the [balcony map](../index.md). The position shown there is the current working placement and may change without changing this container ID.
 
 ## Current planting
 
