@@ -1,0 +1,207 @@
+.calendar-note {
+  margin: 1rem 0;
+  padding: .8rem 1rem;
+  border-left: .2rem solid var(--md-primary-fg-color);
+  background: var(--md-code-bg-color);
+}
+
+.calendar-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .8rem;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+.calendar-select-label {
+  font-weight: 600;
+}
+
+.calendar-select {
+  margin-left: .35rem;
+  padding: .35rem .5rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .25rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+.calendar-horizon {
+  color: var(--md-default-fg-color--light);
+  font-size: .85rem;
+}
+
+.module-picker {
+  display: grid;
+  gap: .8rem;
+  margin: 1rem 0 1.2rem;
+}
+
+.module-planter {
+  display: grid;
+  grid-template-columns: minmax(10rem, auto) 1fr;
+  gap: .6rem;
+  align-items: center;
+}
+
+.module-planter-title {
+  font-weight: 600;
+}
+
+.module-strip {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(2.4rem, 1fr));
+  max-width: 26rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .35rem;
+  overflow: hidden;
+}
+
+.module-button {
+  appearance: none;
+  border: 0;
+  border-right: 1px solid var(--md-default-fg-color--lighter);
+  padding: .45rem .6rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.module-button:last-child {
+  border-right: 0;
+}
+
+.module-button:hover,
+.module-button[data-active="true"] {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 14%, var(--md-default-bg-color));
+}
+
+.module-button-all {
+  width: fit-content;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .35rem;
+}
+
+.next-calendar-action {
+  margin: 1.1rem 0 1.4rem;
+  padding: .8rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .4rem;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 6%, var(--md-default-bg-color));
+}
+
+.calendar-timeline {
+  display: grid;
+  gap: 1.4rem;
+}
+
+.calendar-month-heading {
+  margin: 0 0 .55rem;
+}
+
+.calendar-month {
+  display: grid;
+  gap: .45rem;
+}
+
+.calendar-event {
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .4rem;
+  overflow: clip;
+  background: var(--md-default-bg-color);
+}
+
+.calendar-event-summary {
+  display: grid;
+  grid-template-columns: 4.6rem 5.4rem minmax(14rem, 1fr) minmax(8rem, auto);
+  gap: .6rem;
+  align-items: center;
+  padding: .7rem .8rem;
+  cursor: pointer;
+}
+
+.calendar-event-summary:hover {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 5%, var(--md-default-bg-color));
+}
+
+.calendar-week {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+.calendar-module {
+  font-weight: 700;
+}
+
+.calendar-transition {
+  line-height: 1.45;
+}
+
+.calendar-where {
+  color: var(--md-default-fg-color--light);
+  font-size: .84rem;
+  text-align: right;
+}
+
+.calendar-action {
+  display: inline-block;
+  padding: .05rem .3rem;
+  border-radius: .25rem;
+  font-size: .76rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.calendar-action-harvest {
+  background: color-mix(in srgb, #b56b45 16%, var(--md-default-bg-color));
+}
+
+.calendar-action-plant {
+  background: color-mix(in srgb, #57965c 18%, var(--md-default-bg-color));
+}
+
+.calendar-arrow {
+  padding: 0 .2rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.calendar-event-body {
+  padding: .25rem .9rem .9rem;
+  border-top: 1px solid var(--md-default-fg-color--lighter);
+}
+
+.calendar-event-date {
+  margin: .65rem 0;
+}
+
+.calendar-event-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem .8rem;
+}
+
+.calendar-event-links a {
+  font-size: .85rem;
+}
+
+.calendar-empty {
+  color: var(--md-default-fg-color--light);
+}
+
+@media (max-width: 760px) {
+  .module-planter {
+    grid-template-columns: 1fr;
+  }
+
+  .calendar-event-summary {
+    grid-template-columns: 4.3rem 1fr;
+  }
+
+  .calendar-transition,
+  .calendar-where {
+    grid-column: 1 / -1;
+    text-align: left;
+  }
+}

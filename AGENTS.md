@@ -113,6 +113,19 @@ Requirements:
 - Draw the door swing on the house side of the façade.
 - In the current working layout, the trellis planter is vertical on the plan (its 60 cm dimension runs east-west).
 
+## Calendar
+
+The interactive planting calendar lives at `docs/calendar.md`, with behavior in `docs/assets/javascripts/calendar.js` and styling in `docs/assets/stylesheets/calendar.css`.
+
+Rules:
+
+- Calendar events must be projections of documented rotation plans, not independent horticultural guesses.
+- The shallow-planter source plan defines crop **start weeks** only. A displayed **final harvest** is a derived transition event: finish/clear the outgoing crop immediately before sowing the incoming crop in the same ISO week.
+- Do not invent an exact day when only an ISO week is known. Display the Monday–Sunday week range as a working window.
+- Calendar entries must identify the physical container and logical module.
+- Crop, container and plan links must remain clickable from each event.
+- Keep recurring transition data in `calendar.js` synchronized with `docs/planning/shallow-planters-6cm.md` when the rotation changes.
+
 ## Documentation content
 
 For each physical container, document at minimum:
