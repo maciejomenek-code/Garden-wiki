@@ -151,4 +151,4 @@ Container names identify the physical objects, not their positions. Moving a con
 - Window offsets inside those sections are schematic because those offsets have not been measured.
 - Container positions are intentionally easy to change; their IDs remain stable when moved.
 
-See [Containers](containers/) for the complete physical inventory.
+See [Containers](containers/index.md) for the complete physical inventory.
