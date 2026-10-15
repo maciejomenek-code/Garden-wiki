@@ -14,48 +14,52 @@
 }
 
 .balcony-floor {
-  fill: color-mix(in srgb, var(--md-default-bg-color) 92%, #8fbc8f);
+  fill: color-mix(in srgb, var(--md-default-bg-color) 94%, #8fbc8f);
   stroke: var(--md-default-fg-color);
   stroke-width: 2;
 }
 
-.outer-edge,
-.house-edge {
+.outer-edge {
   stroke: var(--md-default-fg-color);
   stroke-width: 5;
 }
 
+.house-edge {
+  stroke: var(--md-default-fg-color);
+  stroke-width: 2;
+}
+
 .house-zone {
-  fill: color-mix(in srgb, var(--md-default-bg-color) 88%, #8d6e63);
+  fill: color-mix(in srgb, var(--md-default-bg-color) 90%, #8d6e63);
   stroke: none;
 }
 
 .section-mark {
-  stroke: var(--md-default-fg-color--light);
+  stroke: var(--md-default-fg-color--lighter);
   stroke-width: 1;
 }
 
 .window {
   stroke: #4f83cc;
-  stroke-width: 7;
+  stroke-width: 6;
   stroke-linecap: round;
 }
 
 .door {
   stroke: #c58b3f;
-  stroke-width: 7;
+  stroke-width: 6;
 }
 
 .door-swing {
   fill: none;
-  stroke: var(--md-default-fg-color--light);
-  stroke-width: 1.5;
-  stroke-dasharray: 6 5;
+  stroke: var(--md-default-fg-color--lighter);
+  stroke-width: 1;
+  stroke-dasharray: 5 5;
 }
 
 .door-leaf {
   stroke: var(--md-default-fg-color--light);
-  stroke-width: 2;
+  stroke-width: 1.25;
 }
 
 .container-shape {
@@ -85,22 +89,21 @@
 .container-text,
 .pot-label,
 .dimension-label,
-.edge-label,
+.orientation-label,
 .section-label,
-.window-label,
-.orientation text {
+.window-label {
   fill: var(--md-default-fg-color);
   font-family: var(--md-text-font-family);
   pointer-events: none;
 }
 
 .container-text {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
 }
 
 .container-text.compact {
-  font-size: 10px;
+  font-size: 9.5px;
 }
 
 .pot-label {
@@ -112,18 +115,18 @@
   font-weight: 600;
 }
 
-.edge-label,
-.section-label,
-.window-label {
+.orientation-label {
   font-size: 11px;
+  font-weight: 600;
+  fill: var(--md-default-fg-color--light);
 }
 
-.orientation text {
-  font-size: 13px;
-  font-weight: 700;
+.section-label {
+  font-size: 10.5px;
+  fill: var(--md-default-fg-color--light);
 }
 
-.orientation line {
-  stroke: var(--md-default-fg-color--light);
-  stroke-width: 1.5;
+.window-label {
+  font-size: 10px;
+  fill: var(--md-default-fg-color--light);
 }
