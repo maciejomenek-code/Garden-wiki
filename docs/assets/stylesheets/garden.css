@@ -1,0 +1,129 @@
+.balcony-map-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin: 1rem 0 1.5rem;
+}
+
+.balcony-map {
+  display: block;
+  width: 100%;
+  min-width: 680px;
+  max-width: 1050px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.balcony-floor {
+  fill: color-mix(in srgb, var(--md-default-bg-color) 92%, #8fbc8f);
+  stroke: var(--md-default-fg-color);
+  stroke-width: 2;
+}
+
+.outer-edge,
+.house-edge {
+  stroke: var(--md-default-fg-color);
+  stroke-width: 5;
+}
+
+.house-zone {
+  fill: color-mix(in srgb, var(--md-default-bg-color) 88%, #8d6e63);
+  stroke: none;
+}
+
+.section-mark {
+  stroke: var(--md-default-fg-color--light);
+  stroke-width: 1;
+}
+
+.window {
+  stroke: #4f83cc;
+  stroke-width: 7;
+  stroke-linecap: round;
+}
+
+.door {
+  stroke: #c58b3f;
+  stroke-width: 7;
+}
+
+.door-swing {
+  fill: none;
+  stroke: var(--md-default-fg-color--light);
+  stroke-width: 1.5;
+  stroke-dasharray: 6 5;
+}
+
+.door-leaf {
+  stroke: var(--md-default-fg-color--light);
+  stroke-width: 2;
+}
+
+.container-shape {
+  fill: #b8d8b8;
+  stroke: var(--md-default-fg-color);
+  stroke-width: 2;
+  transition: fill 120ms ease, stroke-width 120ms ease, filter 120ms ease;
+}
+
+.container-link:hover .container-shape,
+.container-link:focus .container-shape {
+  fill: #8fc98f;
+  stroke-width: 3;
+  filter: drop-shadow(0 2px 2px rgb(0 0 0 / 0.25));
+}
+
+.container-link:focus {
+  outline: none;
+}
+
+.trellis-line {
+  stroke: var(--md-default-fg-color--light);
+  stroke-width: 1;
+  pointer-events: none;
+}
+
+.container-text,
+.pot-label,
+.dimension-label,
+.edge-label,
+.section-label,
+.window-label,
+.orientation text {
+  fill: var(--md-default-fg-color);
+  font-family: var(--md-text-font-family);
+  pointer-events: none;
+}
+
+.container-text {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.container-text.compact {
+  font-size: 10px;
+}
+
+.pot-label {
+  font-size: 10px;
+}
+
+.dimension-label {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.edge-label,
+.section-label,
+.window-label {
+  font-size: 11px;
+}
+
+.orientation text {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.orientation line {
+  stroke: var(--md-default-fg-color--light);
+  stroke-width: 1.5;
+}
