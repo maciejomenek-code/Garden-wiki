@@ -21,9 +21,14 @@ markdown_extensions:
 
 extra_css:
   - assets/stylesheets/garden.css
+  - assets/stylesheets/calendar.css
+
+extra_javascript:
+  - assets/javascripts/calendar.js
 
 nav:
   - Balcony: index.md
+  - Calendar: calendar.md
   - Containers:
       - Overview: containers/index.md
       - Planter 85 × 15 — 01: containers/planter-85x15-01.md
