@@ -1,7 +1,17 @@
 # Crops
 
-This section is for reusable crop-specific knowledge: sowing, spacing, container requirements, harvesting, overwintering and observations that apply independently of one particular physical container.
+This section stores reusable crop-specific knowledge independently of a particular physical container.
 
-No crop pages have been added yet.
+| Crop | What is currently documented |
+|---|---|
+| [Klajtonia](klajtonia.md) | sowing pattern, autumn start, cut-and-come-again harvest |
+| [Portulaka warzywna](portulaka-warzywna.md) | sowing pattern, summer role, repeated shoot harvest |
+| [Roszponka](roszponka.md) | sowing pattern, autumn start, leaf/rosette harvest |
+| [Pietruszka naciowa](pietruszka-naciowa.md) | tested 2×2 module layout; remaining parameters TBD |
+| [Kolendra](kolendra.md) | planned rotation only; growing parameters TBD |
+| [Zellarosa](zellarosa.md) | planned spring module; growing parameters TBD |
+| [Królowa Majowych](krolowa-majowych.md) | planned spring module; growing parameters TBD |
 
-When a crop is planted in a specific container, link the crop page from that container's **Current planting** section rather than encoding the crop in the container ID.
+When a crop is used in a specific container, the container page links here rather than encoding the crop in the container ID.
+
+The main rotation plan for the two shallow planters is [Two shallow planters — 6 cm substrate](../planning/shallow-planters-6cm.md).

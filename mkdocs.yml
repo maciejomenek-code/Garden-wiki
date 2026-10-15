@@ -36,5 +36,15 @@ nav:
       - Pot Ø19 — 01: containers/pot-19-01.md
       - Pot Ø19 — 02: containers/pot-19-02.md
       - Pot Ø19 — 03: containers/pot-19-03.md
-  - Crops: crops/index.md
-  - Planning: planning/index.md
+  - Crops:
+      - Overview: crops/index.md
+      - Klajtonia: crops/klajtonia.md
+      - Portulaka warzywna: crops/portulaka-warzywna.md
+      - Roszponka: crops/roszponka.md
+      - Pietruszka naciowa: crops/pietruszka-naciowa.md
+      - Kolendra: crops/kolendra.md
+      - Zellarosa: crops/zellarosa.md
+      - Królowa Majowych: crops/krolowa-majowych.md
+  - Planning:
+      - Overview: planning/index.md
+      - Two shallow planters (6 cm): planning/shallow-planters-6cm.md
