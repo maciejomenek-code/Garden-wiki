@@ -103,7 +103,7 @@ Requirements:
 - Prefer CSS hover/focus styling over JavaScript.
 - Include accessible text/tooltips for clickable containers.
 - If a position is only approximate, present it as approximate rather than inventing measurements.
-- Do not infer exact distances from walls unless they have been measured.
+- Do not infer exact distances from walls unless they have been measured.\n- Draw the 23 cm window-sill depth explicitly; containers assigned to a sill must visually sit on the sill surface, not float beside it.\n- Draw the door swing on the house side of the façade.\n- In the current working layout, the trellis planter is vertical on the plan (its 60 cm dimension runs east-west).
 
 ## Documentation content
 

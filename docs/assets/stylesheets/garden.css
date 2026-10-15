@@ -34,6 +34,18 @@
   stroke: none;
 }
 
+.sill {
+  fill: color-mix(in srgb, var(--md-default-bg-color) 82%, #90a4ae);
+  stroke: var(--md-default-fg-color--light);
+  stroke-width: 1.25;
+}
+
+.sill-depth-mark,
+.sill-depth-cap {
+  stroke: var(--md-default-fg-color--light);
+  stroke-width: 1;
+}
+
 .section-mark {
   stroke: var(--md-default-fg-color--lighter);
   stroke-width: 1;
@@ -88,10 +100,12 @@
 
 .container-text,
 .pot-label,
+.small-pot-number,
 .dimension-label,
 .orientation-label,
 .section-label,
-.window-label {
+.window-label,
+.sill-depth-label {
   fill: var(--md-default-fg-color);
   font-family: var(--md-text-font-family);
   pointer-events: none;
@@ -110,6 +124,11 @@
   font-size: 10px;
 }
 
+.small-pot-number {
+  font-size: 8px;
+  font-weight: 600;
+}
+
 .dimension-label {
   font-size: 12px;
   font-weight: 600;
@@ -126,7 +145,8 @@
   fill: var(--md-default-fg-color--light);
 }
 
-.window-label {
+.window-label,
+.sill-depth-label {
   font-size: 10px;
   fill: var(--md-default-fg-color--light);
 }
