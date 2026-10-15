@@ -17,6 +17,8 @@ This plan applies to the two physical containers [`planter_85x15_01`](../contain
 
 Module letters are planting-plan labels only; they are not physical container IDs.
 
+Use the [interactive planting calendar](../calendar.md) for upcoming transition windows. The calendar derives a final-harvest/clearing event from each rotation boundary: the outgoing crop is finished immediately before the incoming crop is started in the same ISO week. No exact day is implied.
+
 ## Module plan
 
 ### `planter_85x15_01` — modules A–E
