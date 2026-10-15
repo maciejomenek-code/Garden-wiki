@@ -1,0 +1,40 @@
+site_name: Garden Wiki
+site_description: Balcony garden plan and documentation
+site_url: https://maciejomenek-code.github.io/Garden-wiki/
+repo_url: https://github.com/maciejomenek-code/Garden-wiki
+repo_name: maciejomenek-code/Garden-wiki
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - content.code.copy
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - assets/stylesheets/garden.css
+
+nav:
+  - Balcony: index.md
+  - Containers:
+      - Overview: containers/index.md
+      - Planter 85 × 15 — 01: containers/planter-85x15-01.md
+      - Planter 85 × 15 — 02: containers/planter-85x15-02.md
+      - Trellis planter 60 × 40: containers/trellis-planter-60x40.md
+      - Pot Ø24 — 01: containers/pot-24-01.md
+      - Pot Ø24 — 02: containers/pot-24-02.md
+      - Pot Ø24 — 03: containers/pot-24-03.md
+      - Pot Ø24 — 04: containers/pot-24-04.md
+      - Pot Ø19 — 01: containers/pot-19-01.md
+      - Pot Ø19 — 02: containers/pot-19-02.md
+      - Pot Ø19 — 03: containers/pot-19-03.md
+  - Crops: crops/index.md
+  - Planning: planning/index.md
