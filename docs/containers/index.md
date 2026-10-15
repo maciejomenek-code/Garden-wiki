@@ -15,4 +15,4 @@ Container IDs represent **physical containers**. Location and planting are mutab
 | [`pot_19_02`](pot-19-02.md) | round pot | Ø19 cm | — |
 | [`pot_19_03`](pot-19-03.md) | round pot | Ø19 cm | — |
 
-Return to the [interactive balcony map](../).
+Return to the [interactive balcony map](../index.md).
