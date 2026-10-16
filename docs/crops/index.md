@@ -11,6 +11,7 @@ This section stores reusable crop-specific knowledge independently of a particul
 | [Kolendra](kolendra.md) | planned rotation only; growing parameters TBD |
 | [Zellarosa](zellarosa.md) | planned spring module; growing parameters TBD |
 | [Królowa Majowych](krolowa-majowych.md) | planned spring module; growing parameters TBD |
+| [Bazylia](bazylia.md) | container size, substrate mix, drainage and pot preparation |
 
 When a crop is used in a specific container, the container page links here rather than encoding the crop in the container ID.
 
