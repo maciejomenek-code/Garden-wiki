@@ -278,11 +278,11 @@
       " " + crops[event.incoming].name
     );
 
-    const where = document.createElement("span");
-    where.className = "calendar-where";
-    where.textContent = containers[event.container].name;
+    const planter = document.createElement("span");
+    planter.className = "calendar-planter";
+    planter.textContent = containers[event.container].name;
 
-    summary.append(week, module, transition, where);
+    summary.append(planter, module, week, transition);
     details.append(summary);
 
     const body = document.createElement("div");

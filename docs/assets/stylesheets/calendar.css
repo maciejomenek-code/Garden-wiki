@@ -115,7 +115,7 @@
 
 .calendar-event-summary {
   display: grid;
-  grid-template-columns: 4.6rem 5.4rem minmax(14rem, 1fr) minmax(8rem, auto);
+  grid-template-columns: minmax(9rem, auto) 5.4rem 4.6rem minmax(14rem, 1fr);
   gap: .6rem;
   align-items: center;
   padding: .7rem .8rem;
@@ -139,10 +139,8 @@
   line-height: 1.45;
 }
 
-.calendar-where {
-  color: var(--md-default-fg-color--light);
-  font-size: .84rem;
-  text-align: right;
+.calendar-planter {
+  font-weight: 700;
 }
 
 .calendar-action {
@@ -199,9 +197,11 @@
     grid-template-columns: 4.3rem 1fr;
   }
 
-  .calendar-transition,
-  .calendar-where {
+  .calendar-planter {
     grid-column: 1 / -1;
-    text-align: left;
+  }
+
+  .calendar-transition {
+    grid-column: 1 / -1;
   }
 }
